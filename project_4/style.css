@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* z-index: 1;
+    position: fixed; */
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: 700;
+}
+.navbar input{
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+.navbar button{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.navbar img{
+    height: 35px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1822889082/vector/luxury-background-curved-shapes-lines-lights-and-shadows.jpg?s=612x612&w=0&k=20&c=jfMsPDaJITe72HyX6w2qQP7yT8rNJQlL4tUEYpttMMI=");
+    background-size: cover;
+    display: flex;
+}
+.main .right{
+    margin-top: 40px;
+    color: white;
+    font-weight: bolder;
+
+}
+.main p{
+    margin: 10px;
+}
+span{
+    color:  #3D82F6;
+}
+.main h1{
+    font-size: 60px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.main .right button{
+    background-color: aquamarine;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 15px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: large;
+    background: linear-gradient(90deg, #3D82F6 0%, #8A5EF6 100%);
+}
+.main ul{
+    display: flex;
+    color: goldenrod;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.main .left img{
+    top: 30px;
+    height: 600px;
+}
+
+.Brands{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    
+}
+.Brands h1{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 60px;
+}
+.Brands h4{
+    color: orangered;
+}
+.Brands button{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mobile-name{
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.mobile-name button{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 30px;
+    background: transparent;
+    background-color: aqua;
+    background-color: black;
+    color: antiquewhite;box-shadow: 0 0 10px 3px white;
+    height: 40px;
+    width: 150px;
+    align-items: center;   
+    justify-content: center; 
+}
+
+
+.match{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    justify-content: center;
+    
+
+    
+}
+.match p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    color: white;
+    font-size: 20px;
+}
+.match h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    /* padding: 10px; */
+}
+
+.cards-row1{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 120px;
+
+}
+.card{
+    height: 200px;
+    width: 350px;
+    /* border: solid; */
+    /* background-color: #8A5EF6; */
+    margin: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px white;
+   
+}
+.card:hover{
+    border: 2px solid red;
+}
+.cards-row2{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100%;
+     display: flex;
+    justify-content: space-evenly;
+}
+.small-box{
+    height: 60px;
+    width: 60px;
+    border: 2px solid;
+    margin: 10px;
+    background-color: #8A5EF6;
+}
+.small-box img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.one{
+    padding: 10px;
+    margin: 10px;
+}
+.two{
+    padding: 10px;
+    margin: 10px;
+}
+.three{
+    padding: 10px;
+    margin: 10px;
+}
+.four{
+    padding: 10px;
+    margin: 10px;
+}
+.five{
+    padding: 10px;
+    margin: 10px;
+}
+.mix{
+    padding: 10px;
+    margin: 10px;
+}
+
+

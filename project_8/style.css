@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(250, 247, 247);
+    color: black;
+    display: flex;
+}
+.navbar .first{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .mid{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar .mid a{
+    color: rgb(0, 0, 0);
+    text-underline-offset: 10px;
+    text-decoration-style: wavy;
+    text-decoration-color: chocolate;
+    
+}
+.navbar .last{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .last button{
+    padding: 20px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+/* main section */
+.main{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+}
+.main .left{
+    width: 60%;
+}
+.main .left .rating{
+    display: flex;
+}
+.main .left .rating .per h1{
+    font-size: 30px;
+}
+.main #first-btn{
+    color: green;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    width: 250px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.main h1{
+    font-weight: 700;
+    font-size: 70px;
+    margin-left: 60px;
+    /* margin-top: 20px; */
+}
+.main p{
+    margin-left: 40px;
+    /* margin-top: 10px; */
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.main #menu-btn{
+    color: rgb(248, 248, 248);
+    background-color: orange;
+    border-radius: 30px;
+    height: 50px;
+    margin-left: 60px;
+    /* margin-bottom: 20px; */
+    width: 170px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.main #btn{
+    height: 50px;
+    width: 120px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main #btn:hover{
+    background-color: black;
+    color: white;
+
+}
+.main .right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.main .right img{
+    height:400px;
+    width: 400px;
+}
+.main .right img:hover{
+    transform: scale(1.2);
+}
+
+
+/* second-sec */
+
+.second-sec{
+    height: 40vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.second-sec .center{
+    text-align: center;
+    
+}
+.second-sec .center button{
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.second-sec .center button:hover{
+    background-color: black;
+    color: orangered;
+}
+.second-sec .center h2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.second-sec .center p{
+    margin: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-second{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 2px 2px gray;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    margin: 55px;
+}
+.card:hover{
+    box-shadow: 0 0 10px 10px gray;
+}
+
+.card .top-card{
+    display: flex;
+    height: 50%;
+    background-color: pink;
+
+    border-radius: 20px;
+}
+.card .top-card span{
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    align-items: end;
+    border-radius: 20px;
+    border: solid greenyellow;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.card .mid-card{
+    text-align: center;
+}
+.card .mid-card .price-order{
+    display: flex;
+    margin: 25px;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+}
+.card .mid-card .order-btn{
+    background-color: black;
+    color: rgb(239, 234, 232);
+    /* padding: 0px; */
+    width: 100px;
+    border-radius: 20px;
+}
+
+/* why section */
+.why{
+    height: 30vh;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: center;
+    
+    text-align: center;
+}
+.why button{
+    color: darkgreen;
+    background-color: rgb(187, 233, 156);
+    justify-content: center;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.why button:hover{
+    color: black;
+    background-color: orangered;
+}
+.why h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+
+.four-card{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.four-card .card-box{
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 2px 1px;
+    border-radius: 40px;
+}
+.four-card .card-box:hover{
+    box-shadow: 0 0 5px 5px gray;
+}
+
+.four-card .card-box h2{
+    color: orangered;
+}
+.four-card .card-box h1,p{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 25px;
+}
+.four-card .card-box .round{
+    border: solid;
+    height: 60px;
+    width: 60px;
+    padding: 6px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.four-card .card-box .round img{
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* seller section */
+.Seller{
+    height: 90vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+}
+.Seller .Seller-left-sec{
+    width: 50%;
+}
+.Seller .Seller-left-sec img{
+    height: 450px;
+    width: 550px;
+    margin-top: 30px;
+}
+.Seller .Seller-left-sec img:hover{
+    transform: scale(1.1);
+}
+
+
+.Seller .Seller-right-sec{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+.Seller .Seller-right-sec #bbtn{
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: orangered;
+    margin-left: 20px;
+
+}
+
+.Seller .Seller-right-sec .p-two{
+    text-align: justify;
+    margin-right: 110px;
+}
+.Seller .Seller-right-sec h6{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+.Seller .Seller-right-sec span{
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+.Seller .Seller-right-sec .btn{
+    background-color: orange;
+    margin-left: 140px;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+.Seller .Seller-right-sec .btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+/* Story */
+.Story{
+    height: 110vh;
+    width: 100%;
+    color: black;
+    display: flex;
+}
+.Story .left-story{
+    height: inherit;
+    width: 50%;
+    margin-left: 35px;
+    margin-top: 100px;
+
+}
+.Story .left-story button{
+    color: green;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.Story .left-story h1{
+    font-size: 50px;
+    margin-left: 25px;
+}
+.Story .left-story #story-btn{
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.Story .left-story #story-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* story right */
+
+.right-story{
+    margin-top: 25px;
+}
+.right-story .right-one{
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+}
+.right-story .right-one:hover{
+    border: solid 2px white;
+}
+.right-story .right-one h4{
+    margin-left: 40px;
+    
+}
+.right-story .right-one h3{
+    margin-left: 20px;
+}
+
+
+/* touch */
+.touch{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.touch .touch-left{
+    height: 50vh;
+    width: 60%;
+    margin-left: 30px;
+    /* position: absolute; */
+    margin-top: 40px;
+}
+.touch .touch-left button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    color: green;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+.touch .touch-left p{
+    margin-left: 10px;
+}
+.touch .touch-left h1{
+    margin-left: 30px;
+}
+.touch .touch-left form{
+    margin-left: 30px;
+}
+.touch .touch-left form label{
+    color: orangered;
+    font-weight: 700;
+}
+.touch .touch-left form input{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 500px;
+    border: 1px solid;
+
+}
+.touch .touch-left form input:hover,:focus{
+    border: 2px solid orangered;
+    
+}
+.touch .touch-left form textarea{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
+.touch .touch-left form textarea:hover,:focus{
+    border: 2px solid orangered;
+    color: blueviolet;
+    
+}
+
+/* touch right side */
+
+.touch .touch-right{
+    height: 50vh;
+    width: 40%;
+    margin-top: 20px;
+    margin: 20px;
+    
+}
+.touch .touch-right .us:hover{
+    box-shadow: 0px 0px 5px 5px;
+}
+.touch .touch-right .us{
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-shadow: 0px 0px px 1px;
+}
+
+/* foot */
+.foot{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot .foot-a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+.foot .foot-a p{
+    padding-right: 20px;
+}
+
+.foot .foot-a h1{
+    font-size: 30px;
+    padding-right: 30px;
+}
+.foot .foot-a a{
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin: 10px;
+    text-decoration: none;
+}
+
+.foot .foot-a .foot-img img{
+    height: 40px;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 50%;
+}

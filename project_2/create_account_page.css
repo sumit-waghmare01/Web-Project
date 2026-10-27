@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(252, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 80%;
+    width: 80%;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 10px 10px ;
+    border-radius: 10px;
+    
+}
+
+.left{
+    height: 100%;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+    border: 4px solid white;
+
+}
+.right{
+    height: 100%;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right .para{
+    margin-left: -200px;
+}
+ form .email{
+    width: 380px;
+}
+form .password{
+    width: 380px;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+}
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 380px;
+    margin: 14px;
+    background-color: black;
+    color: azure;
+}
+
+
+
+.right .social button{
+    padding: 8px;
+    width: 120px;
+    margin: 20px;
+    background-color: transparent;
+
+}
